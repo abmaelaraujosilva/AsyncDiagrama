@@ -5,6 +5,7 @@ namespace AsyncAtividade.Models
 {
     public class _Tarefa
     {
+
         public async Task Tarefa(int ms)
         {
             await Task.Delay(ms);
